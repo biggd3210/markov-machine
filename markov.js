@@ -17,8 +17,6 @@ class MarkovMachine {
    *  {"the": ["cat", "hat"], "cat": ["in"], "in": ["the"], "hat": [null]} */
 
   makeChains() {
-    console.log(this.words);
-
     let chains = new Map();
 
     for (let i = 0; i < this.words.length; i += 1) {
